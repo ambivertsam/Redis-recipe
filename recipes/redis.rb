@@ -1,6 +1,7 @@
 #
 # Cookbook:: database
-# Recipe:: default
+# Recipe:: redis
 #
 # Copyright:: 2022, The Authors, All Rights Reserved.
-include_recipe "database::redis"
+
+database_install "installing redis"
